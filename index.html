@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home - Computer Vision and Robotics Group">
+    <title>Home | Computer Vision and Robotics Group</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #105c8f; /* Updated blue tone */
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        /* Grid for Features or Info */
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .info-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .info-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .info-box h3 {
+            font-size: 1.5rem;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            font-size: 1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #105c8f; /* Updated blue tone matching header */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Larger, more prominent footer logo */
+        footer img#logo-footer {
+            width: 160px; /* Larger size */
+            height: auto;
+            filter: brightness(1.2) contrast(1.2); /* Enhanced visibility */
+            margin-top: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Computer Vision and Robotics Group</h1>
+        <p>Archimedes Research Unit - Athena RC</p>
+    </header>
+
+    <section>
+        <h2>Welcome to Our Research Group</h2>
+        <p style="text-align: left;">The Computer Vision and Robotics Group, part of the Archimedes Research Unit at Athena RC, is dedicated to pushing the boundaries of computer vision and robotics through cutting-edge research.</p>
+        <p style="text-align: left;">We are committed to advancing state-of-the-art research in developing advanced deep learning techniques, such as continual and incremental visual learning, harnessing large-scale unlabeled data to refine visual data representations, and enhancing their applicability across various tasks. We also explore neuromorphic algorithms for visual motion perception, advance multimodal machine learning and geometric deep learning, and integrate tensor methods for higher-order learning in multimodal and multiway data.</p>
+        <p style="text-align: left;">Discover our latest projects, publications, and team updates to see how we are driving innovation in visual perception and robotics.</p>
+
+        <div class="info-grid">
+            <a href="news.html" class="info-box">
+                <h3>News</h3>
+                <p>Stay updated with the latest news, projects, and developments from our group.</p>
+            </a>
+            <a href="people.html" class="info-box">
+                <h3>People</h3>
+                <p>Meet our team of dedicated researchers, engineers, and students.</p>
+            </a>
+            <a href="publications.html" class="info-box">
+                <h3>Publications</h3>
+                <p>Explore our research publications and contributions to the field.</p>
+            </a>
+            <a href="contact.html" class="info-box">
+                <h3>Contact</h3>
+                <p>Reach out to us for inquiries, collaborations, and more information.</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Computer Vision and Robotics Group - Archimedes Research Unit - Athena RC</p>
+        <img src="logo_en.svg" alt="Athena RC Logo" id="logo-footer">
+    </footer>
+
+</body>
+
+</html>
